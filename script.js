@@ -47,11 +47,11 @@ ScrollReveal().reveal(".information_content h1",{
 });
 ScrollReveal().reveal(".information_list",{
     ...scrollRevealOption,
-    delay:1000,
+    delay:500,
 });
 ScrollReveal().reveal(".information_btn ",{
     ...scrollRevealOption,
-    delay:1500,
+    delay:500,
 });
 //offer container
 ScrollReveal().reveal(".offer_header",{
@@ -63,6 +63,6 @@ ScrollReveal().reveal(".offer_subheader",{
 });
 ScrollReveal().reveal(".offer_image",{
     ...scrollRevealOption,
-    delay:1000,
+    delay:500,
 });
 
