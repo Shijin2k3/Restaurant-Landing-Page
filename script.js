@@ -10,7 +10,6 @@ const isOpen=navLinks.classList.contains("open");
 menuBtnIcon.setAttribute("class",isOpen ? "ri-close-line":"ri-menu-line")
 })
 
-/*
 const scrollRevealOption={
     distance: "50px",
     origin: "bottom",
@@ -33,10 +32,11 @@ ScrollReveal().reveal(".header_image img",{
     delay:1500,
 });
 // dish container
-//ScrollReveal().reveal(".dish_card",{
-    //...scrollRevealOption,
+ScrollReveal().reveal(".dish_card",{
+    ...scrollRevealOption,
+    delay:500,
     
-//});
+});
 //info container
 ScrollReveal().reveal(".information_image image",{
     ...scrollRevealOption,
@@ -53,7 +53,7 @@ ScrollReveal().reveal(".information_btn ",{
     ...scrollRevealOption,
     delay:500,
 });
-//offer container
+
 ScrollReveal().reveal(".offer_header",{
     ...scrollRevealOption,
 });
