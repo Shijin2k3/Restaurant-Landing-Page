@@ -33,10 +33,10 @@ ScrollReveal().reveal(".header_image img",{
     delay:1500,
 });
 // dish container
-ScrollReveal().reveal(".dish_card",{
-    ...scrollRevealOption,
+//ScrollReveal().reveal(".dish_card",{
+    //...scrollRevealOption,
     
-});
+//});
 //info container
 ScrollReveal().reveal(".information_image image",{
     ...scrollRevealOption,
