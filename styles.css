@@ -492,7 +492,15 @@ font-weight: 600;
         text-align: left;
     }
 }
-@media(width < 600px){
+@media(width < 780px){
+     .nav_actions{
+        display: none;
+    }
+    .nav_menu_btn > span{
+        position: relative;
+        z-index: 20;
+    }
+   
     .nav_links{
         list-style: none; 
         display: flex;
@@ -508,6 +516,9 @@ font-weight: 600;
         transform-origin:top ;
         transition: -5sec;
         background-color: black;
+         z-index: 10;
+        top: 0;
+   
     }
     .link a{
         position: relative;
