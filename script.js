@@ -65,4 +65,4 @@ ScrollReveal().reveal(".offer_image",{
     ...scrollRevealOption,
     delay:500,
 });
-*/
+
