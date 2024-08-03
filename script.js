@@ -10,7 +10,7 @@ const isOpen=navLinks.classList.contains("open");
 menuBtnIcon.setAttribute("class",isOpen ? "ri-close-line":"ri-menu-line")
 })
 
-
+/*
 const scrollRevealOption={
     distance: "50px",
     origin: "bottom",
@@ -65,4 +65,4 @@ ScrollReveal().reveal(".offer_image",{
     ...scrollRevealOption,
     delay:500,
 });
-
+*/
