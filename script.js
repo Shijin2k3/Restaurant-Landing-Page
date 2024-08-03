@@ -35,7 +35,7 @@ ScrollReveal().reveal(".header_image img",{
 // dish container
 ScrollReveal().reveal(".dish_card",{
     ...scrollRevealOption,
-    interval:500,
+    
 });
 //info container
 ScrollReveal().reveal(".information_image image",{
